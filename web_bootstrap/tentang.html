@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Index - Mentor Bootstrap Template</title>
+    <title>About - Mentor Bootstrap Template</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -47,7 +47,7 @@
   ======================================================== -->
   </head>
 
-  <body class="index-page">
+  <body class="about-page">
     <header id="header" class="header d-flex align-items-center sticky-top">
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center"
@@ -64,7 +64,7 @@
             <li>
               <a href="index.html">Home<br /></a>
             </li>
-            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="tentang.html" class="active">Tentang</a></li>
             <li><a href="visimisi.html">Visi Misi</a></li>
             <li><a href="kegiatan.html">Kegiatan</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -75,100 +75,59 @@
     </header>
 
     <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
-
-        <div class="container">
-          <h2 data-aos="fade-up" data-aos-delay="100">
-            SELAMAT DATANG di HIMATIKA
-          </h2>
-          <p data-aos="fade-up" data-aos-delay="200">
-            Disini Himpunan Mahasiswa Prodi Informatika
-          </p>
-        </div>
-      </section>
-      <!-- /Hero Section -->
-
-      <!-- Trainers Index Section -->
-      <section id="trainers-index" class="section trainers-index">
-        <div class="container">
-          <div class="row justify-content-center mb-4">
-            <div class="col-lg-4 col-md-6 d-flex">
-              <div class="member text-center">
-                <img
-                  src="assets/img/profil/kaprodi.jpg"
-                  class="img-fluid mx-auto d-block"
-                  alt=""
-                  style="max-width: 300px"
-                />
-                <div class="member-content">
-                  <h4>JOKO ISKANDAR, M.Kom</h4>
-                  <span>Kaprodi Informatika</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
+      <!-- Page Title -->
+      <div class="page-title" data-aos="fade">
+        <div class="heading">
+          <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+              <div class="col-lg-8">
+                <h1>TENTANG HIMATIKA<br /></h1>
               </div>
             </div>
           </div>
+        </div>
+        <nav class="breadcrumbs">
+          <div class="container">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Tentang<br /></li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+      <!-- End Page Title -->
 
-          <div class="row justify-content-center">
+      <!-- About Us Section -->
+      <section id="about-us" class="section about-us">
+        <div class="container">
+          <div class="row gy-4">
             <div
-              class="col-lg-4 col-md-6 d-flex"
+              class="col-lg-6 order-1 order-lg-2"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <div class="member">
-                <img
-                  src="assets/img/profil/ketua.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-content">
-                  <h4>KRISNA ARIS SAPUTRA</h4>
-                  <span>Ketua HIMATIKA</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
+              <img src="assets/img/about-2.jpg" class="img-fluid" alt="" />
             </div>
 
             <div
-              class="col-lg-4 col-md-6 d-flex"
+              class="col-lg-6 order-2 order-lg-1 content"
               data-aos="fade-up"
-              data-aos-delay="300"
+              data-aos-delay="200"
             >
-              <div class="member">
-                <img
-                  src="assets/img/profil/wakil.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-content">
-                  <h4>ALIFIA ANINDITA WIDYANTI</h4>
-                  <span>Wakil Ketua HIMATIKA</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
+              <p class="fst-italic">
+                Himpunan Mahasiswa Informatika (HIMATIKA) berperan sebagai
+                jembatan antara mahasiswa, dosen, dan pihak fakultas dalam
+                membangun lingkungan akademik yang aktif, kolaboratif, dan
+                inovatif. Melalui berbagai program kerja, HIMATIKA berkomitmen
+                untuk menciptakan ruang belajar, berorganisasi, dan berkarya
+                guna mendukung terciptanya lulusan Informatika yang unggul dan
+                berdaya saing tinggi di era digital.
+              </p>
             </div>
           </div>
         </div>
       </section>
-
-      <!-- /Trainers Index Section -->
+      <!-- /About Us Section -->
     </main>
 
     <footer id="footer" class="bg-blue-900 text-black py-8 px-6">

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Index - Mentor Bootstrap Template</title>
+    <title>Trainers - Mentor Bootstrap Template</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -47,14 +47,13 @@
   ======================================================== -->
   </head>
 
-  <body class="index-page">
+  <body class="trainers-page">
     <header id="header" class="header d-flex align-items-center sticky-top">
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center"
       >
         <a href="index.html" class="logo d-flex align-items-center me-auto">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
           <img src="assets/img/logo.jpg" alt="" />
           <h1 class="sitename">HIMATIKA</h1>
         </a>
@@ -66,7 +65,7 @@
             </li>
             <li><a href="tentang.html">Tentang</a></li>
             <li><a href="visimisi.html">Visi Misi</a></li>
-            <li><a href="kegiatan.html">Kegiatan</a></li>
+            <li><a href="kegiatan.html" class="active">Kegiatan</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -75,92 +74,87 @@
     </header>
 
     <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
-
-        <div class="container">
-          <h2 data-aos="fade-up" data-aos-delay="100">
-            SELAMAT DATANG di HIMATIKA
-          </h2>
-          <p data-aos="fade-up" data-aos-delay="200">
-            Disini Himpunan Mahasiswa Prodi Informatika
-          </p>
-        </div>
-      </section>
-      <!-- /Hero Section -->
-
-      <!-- Trainers Index Section -->
-      <section id="trainers-index" class="section trainers-index">
-        <div class="container">
-          <div class="row justify-content-center mb-4">
-            <div class="col-lg-4 col-md-6 d-flex">
-              <div class="member text-center">
-                <img
-                  src="assets/img/profil/kaprodi.jpg"
-                  class="img-fluid mx-auto d-block"
-                  alt=""
-                  style="max-width: 300px"
-                />
-                <div class="member-content">
-                  <h4>JOKO ISKANDAR, M.Kom</h4>
-                  <span>Kaprodi Informatika</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
+      <!-- Page Title -->
+      <div class="page-title" data-aos="fade">
+        <div class="heading">
+          <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+              <div class="col-lg-8">
+                <h1>KEGIATAN HIMATIKA</h1>
               </div>
             </div>
           </div>
+        </div>
+        <nav class="breadcrumbs">
+          <div class="container">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Kegiatan</li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+      <!-- End Page Title -->
 
-          <div class="row justify-content-center">
-            <div
-              class="col-lg-4 col-md-6 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="member">
+      <!-- Trainers Section -->
+      <section id="kegiatan" class="py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
                 <img
-                  src="assets/img/profil/ketua.jpg"
-                  class="img-fluid"
-                  alt=""
+                  src="assets/img/kuliah-tamu.jpg"
+                  class="card-img-top"
+                  alt="Hackathon"
                 />
-                <div class="member-content">
-                  <h4>KRISNA ARIS SAPUTRA</h4>
-                  <span>Ketua HIMATIKA</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                <div class="card-body">
+                  <h5 class="card-title">KULIAH TAMU</h5>
+                  <p class="card-text">
+                    Kami dari HMP Informatika akan mengadakan Kuliah Tamu 2024.
+                    Kuliah Tamu 2024 menjalin kerjasama dengan Universitas
+                    Wisnuwardhana Malang serta menghadirkan 2 pemateri terbaik
+                    yang akan menemani kita dalam agenda ini✨ Kuliah tamu kita
+                    tujukan kepada seluruh mahasiswa Informatika Universitas
+                    Bhinneka PGRI Tulungagung
+                  </p>
                 </div>
               </div>
             </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="member">
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
                 <img
-                  src="assets/img/profil/wakil.jpg"
-                  class="img-fluid"
-                  alt=""
+                  src="assets/img/pelatihan.jpg"
+                  class="card-img-top"
+                  alt="Seminar Teknologi"
                 />
-                <div class="member-content">
-                  <h4>ALIFIA ANINDITA WIDYANTI</h4>
-                  <span>Wakil Ketua HIMATIKA</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                <div class="card-body">
+                  <h5 class="card-title">PELATIHAN WEBSITE PORTOFOLIO</h5>
+                  <p class="card-text">
+                    Divisi Pelatihan dari Himpunan Mahasiswa Prodi Informatika
+                    UBHI telah melaksanakan kegiatan Pelatihan Website
+                    Portofolio dengan tema "Forming a Digital Identity With
+                    Portofolio". Pelatihan ini bertujuan sebagai wujud
+                    perkembangan di era 5.0 untuk meningkatkan kesadaran dan
+                    mengetahui manfaat tentang teknologi yang ada pada zaman
+                    sekarang.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img
+                  src="assets/img/diklat.png"
+                  class="card-img-top"
+                  alt="Pengabdian Masyarakat"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">DIKLAT</h5>
+                  <p class="card-text">
+                    Satu langkah lebih dekat menuju inovasi! 🚀 Momen berharga,
+                    semangat membara, dan wawasan baru dari Himpunan Mahasiswa
+                    Informatika. 💡💻
+                  </p>
                 </div>
               </div>
             </div>
@@ -168,7 +162,25 @@
         </div>
       </section>
 
-      <!-- /Trainers Index Section -->
+      <section id="testimoni">
+        <h2>Apa Kata Mereka?</h2>
+        <div class="testimoni-container">
+          <div class="testimoni-box">
+            <p>
+              "Bergabung di HIMATIKA membuat saya lebih percaya diri dan aktif
+              di berbagai kegiatan."
+            </p>
+            <p class="author">- Andi, Angkatan 2022</p>
+          </div>
+          <div class="testimoni-box">
+            <p>
+              "Kegiatannya seru dan bermanfaat. Saya jadi punya banyak teman dan
+              relasi baru!"
+            </p>
+            <p class="author">- Rina, Angkatan 2023</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer id="footer" class="bg-blue-900 text-black py-8 px-6">
@@ -192,7 +204,6 @@
         </p>
       </div>
     </footer>
-
     <!-- Scroll Top -->
     <a
       href="#"
