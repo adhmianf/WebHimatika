@@ -102,59 +102,64 @@
       <!-- End Page Title -->
 
       <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <div class="container">
-          <h2 class="text-center mb-4">Pendaftaran Anggota HIMATIKA</h2>
-          <div class="row justify-content-center">
-            <div class="col-md-6">
-              <form id="forWA">
-                <div class="mb-3">
-                  <label for="namaLengkap" class="form-label"
-                    >Nama Lengkap</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="namaLengkap"
-                    placeholder="Masukkan nama Anda"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="nim" class="form-label">NIM</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="nim"
-                    placeholder="Masukkan NIM"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email Aktif</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Masukkan email Anda"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="alasan" class="form-label"
-                    >Alasan Bergabung</label
-                  >
-                  <textarea
-                    class="form-control"
-                    id="alasan"
-                    rows="3"
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary w-100">
-                  Daftar
-                </button>
-              </form>
+      <!-- Contact Section -->
+<section id="contact" class="contact section bg-light py-5">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-4 fw-bold text-primary">Pendaftaran Anggota HIMATIKA</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="card shadow-lg border-0 rounded-4 p-4 bg-white">
+          <form id="forWA">
+            <div class="mb-3">
+              <label for="namaLengkap" class="form-label fw-semibold">Nama Lengkap</label>
+              <input
+                type="text"
+                class="form-control rounded-3"
+                id="namaLengkap"
+                placeholder="Masukkan nama Anda"
+                required
+              />
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="nim" class="form-label fw-semibold">NIM</label>
+              <input
+                type="text"
+                class="form-control rounded-3"
+                id="nim"
+                placeholder="Masukkan NIM"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label fw-semibold">Email Aktif</label>
+              <input
+                type="email"
+                class="form-control rounded-3"
+                id="email"
+                placeholder="Masukkan email Anda"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="alasan" class="form-label fw-semibold">Alasan Bergabung</label>
+              <textarea
+                class="form-control rounded-3"
+                id="alasan"
+                rows="4"
+                placeholder="Mengapa Anda ingin bergabung dengan HIMATIKA?"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 rounded-pill fw-semibold shadow-sm">
+              <i class="bi bi-send me-1"></i> Daftar Sekarang
+            </button>
+          </form>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
       <!-- /Contact Section -->
     </main>
     <script>
