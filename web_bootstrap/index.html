@@ -76,18 +76,16 @@
 
     <main class="main">
       <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+      <section id="hero" class="hero section dark-background position-relative">
+  <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="w-100" />
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.5); z-index:1;"></div>
 
-        <div class="container">
-          <h2 data-aos="fade-up" data-aos-delay="100">
-            SELAMAT DATANG di HIMATIKA
-          </h2>
-          <p data-aos="fade-up" data-aos-delay="200">
-            Disini Himpunan Mahasiswa Prodi Informatika
-          </p>
-        </div>
-      </section>
+  <div class="container position-absolute top-50 start-50 translate-middle text-white text-center" style="z-index:2;">
+    <h2 data-aos="fade-up" data-aos-delay="100">SELAMAT DATANG di HIMATIKA</h2>
+    <p data-aos="fade-up" data-aos-delay="200">Disini Himpunan Mahasiswa Prodi Informatika</p>
+  </div>
+</section>
+
       <!-- /Hero Section -->
 
       <!-- Trainers Index Section -->
@@ -171,27 +169,18 @@
       <!-- /Trainers Index Section -->
     </main>
 
-    <footer id="footer" class="bg-blue-900 text-black py-8 px-6">
-      <div class="max-w-6xl mx-auto text-center">
-        <p class="mb-2">
-          Kontak: himaprodi@informatika.ac.id | Telp: 0857-3280-3785
-        </p>
-        <div class="flex justify-center space-x-4">
-          <a
-            href="https://www.instagram.com/himatika.ubhi/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-gray-300"
-          >
-            <i class="bi bi-instagram"></i>
-            Instagram
-          </a>
-        </div>
-        <p class="mt-4 text-sm">
-          &copy; 2025 HIMAPRODI Informatika. All rights reserved.
-        </p>
-      </div>
-    </footer>
+    <footer id="footer" style="background-color: #012a4a; color: #fff; padding: 40px 0;">
+  <div class="container text-center">
+    <p class="mb-2">Kontak: himaprodi@informatika.ac.id | Telp: 0857-3280-3785</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="https://www.instagram.com/himatika.ubhi/" class="text-white">
+        <i class="bi bi-instagram"></i> Instagram
+      </a>
+    </div>
+    <p class="mt-3 text-light">&copy; 2025 HIMAPRODI Informatika. All rights reserved.</p>
+  </div>
+</footer>
+
 
     <!-- Scroll Top -->
     <a
